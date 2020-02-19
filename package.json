@@ -1,0 +1,19 @@
+{
+  "name": "maratonadev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:joeltonluz/maratonaDev3.0.git",
+  "author": "Joelton Lino Luz <joelton@live.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.0",
+    "pg": "^7.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
